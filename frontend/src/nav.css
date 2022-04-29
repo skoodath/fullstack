@@ -1,0 +1,8 @@
+.nav {
+  width: 90%;
+}
+.containerUl {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}

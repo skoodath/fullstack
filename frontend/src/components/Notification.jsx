@@ -1,0 +1,14 @@
+const styles = {
+  color: "red",
+  backgroundColor: "lightgrey",
+  fontSize: "20px",
+  borderStyle: "solid",
+  borderRadius: "5px",
+  padding: "10px",
+  marginBottom: "10px",
+};
+const Notification = ({ message }) => {
+  return !message ? null : <div style={styles}>{message}</div>;
+};
+
+export default Notification;

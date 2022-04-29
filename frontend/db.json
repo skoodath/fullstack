@@ -1,0 +1,16 @@
+{
+  "notes": [
+    {
+      "content": "Adding second note",
+      "date": "2022-04-28T13:21:21.723Z",
+      "important": true,
+      "id": 2
+    },
+    {
+      "content": "This is not correct",
+      "date": "2022-04-28T14:49:14.216Z",
+      "important": false,
+      "id": 3
+    }
+  ]
+}
