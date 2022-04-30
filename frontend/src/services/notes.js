@@ -1,5 +1,5 @@
 import axios from "axios";
-const baseURL = "http://localhost:3001/api/notes";
+const baseURL = "/api/notes";
 
 const getNotes = () => {
   const request = axios.get(baseURL);
@@ -21,6 +21,7 @@ const deleteNote = (id) => {
   return request.then((response) => response.data);
 };
 
+/* eslint import/no-anonymous-default-export: [2, {"allowObject": true}] */
 export default {
   getNotes,
   createNote,
